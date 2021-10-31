@@ -16,8 +16,9 @@ public class Send_Data : MonoBehaviour
        string school = (string)Variables.Application.Get("colegio");
        session.Student = new Student(username,school);
        session.Game.levels.Add(new Level(level,prms));
-       session.Game.nameGame = (string)Variables.Application.Get("game_name");
-       string global_score = (string)Variables.Application.Get("score");
+        //session.Game.nameGame = (string)Variables.Application.Get("game_name");
+        session.Game.nameGame = "presentacion 1";
+        string global_score = (string)Variables.Application.Get("score");
        session.Game.score = (score_lvl + Int32.Parse(global_score)).ToString();
        Variables.Application.Set("score",session.Game.score);
        string json = JsonUtility.ToJson(session);

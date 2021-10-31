@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3FD783B2-1B94-2AF6-2FE4-A19917F46599}</ProjectGuid>
+    <ProjectGuid>{55B6F61C-27AC-C0B0-C813-FBF2CA27CEF2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,16 +58,15 @@
     <Compile Include="Assets\Script\Send_Data.cs" />
     <Compile Include="Assets\Script\Parameter.cs" />
     <Compile Include="Assets\Script\accesibilty.cs" />
-    <Compile Include="Assets\Vibrate.cs" />
     <Compile Include="Assets\UAP\Plugins\CustomTTS\Custom_TTS_Template.cs" />
     <Compile Include="Assets\UAP\Examples\UI Navigation Example\Scripts\DemoHelper.cs" />
-    <Compile Include="Assets\Scenes\mientras tanto\a la 1.cs" />
     <Compile Include="Assets\UAP\Scripts\Utility\UAP_SelectionGroup.cs" />
     <Compile Include="Assets\UAP\Scripts\Core\UAP_BaseElement_3D.cs" />
     <Compile Include="Assets\UAP\Examples\Match 3 Game Example\Scripts\gameplay.cs" />
     <Compile Include="Assets\UAP\Examples\UI Navigation Example\Scripts\PlatformTextSwitcher.cs" />
     <Compile Include="Assets\UAP\Examples\Match 3 Game Example\Scripts\instructions.cs" />
     <Compile Include="Assets\UAP\Plugins\iOS\iOSTTS.cs" />
+    <Compile Include="Assets\Script\accesibilidad.cs" />
     <Compile Include="Assets\UAP\Scripts\UI Components\AccessibleLabel_3D.cs" />
     <Compile Include="Assets\Script\Level.cs" />
     <Compile Include="Assets\UAP\Plugins\CustomTTS\WebSpeechAPI_TTS.cs" />
@@ -102,12 +101,11 @@
     <Compile Include="Assets\UAP\Scripts\UI Components\AccessibleButton.cs" />
     <Compile Include="Assets\UAP\Examples\3D Objects Example\Scripts\uGUI3DExampleGameLogic.cs" />
     <Compile Include="Assets\UAP\Plugins\x86_64\WindowsTTS.cs" />
+    <Compile Include="Assets\Script\PopUpSystem.cs" />
     <Compile Include="Assets\Script\GestureDetector.cs" />
     <Compile Include="Assets\Script\Game.cs" />
     <Compile Include="Assets\UAP\Scripts\UI Components\AccessiblePluginToggle.cs" />
     <Compile Include="Assets\UAP\Examples\Match 3 Game Example\Scripts\gridpanel.cs" />
-    <Compile Include="Assets\Script\accesibilidad.cs" />
-    <Compile Include="Assets\Script\PopUpSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />

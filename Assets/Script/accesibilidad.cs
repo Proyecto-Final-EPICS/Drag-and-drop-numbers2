@@ -7,7 +7,10 @@ public class accesibilidad : MonoBehaviour
 {
     static bool sw_text = false;
     static bool sw_space = false;
+    static bool sw_contrast = false;
+    static int cont = 0;
     static int font_family = 1;
+    public Color[] colors_bk;
 
     public Font f_1;
     public Font f_2;
@@ -121,7 +124,48 @@ public class accesibilidad : MonoBehaviour
             t.font = Font_selected;
         }
     }
+
+    public void increase_contrast()
+    {
+        Image[] images = FindObjectsOfType<Image>();
+
+        if (cont == 0)
+        {
+            colors_bk = new Color[images.Length];
+            Debug.Log(images.Length);
+            for (int i = 0; i < images.Length; i++)
+            {
+                Color c = images[i].color;
+                colors_bk[i] = c;
+            }
+            cont = cont + 1;
+
+        }
+
+
+        if (!sw_contrast)
+        {
+            foreach (Image i in images)
+            {
+                Color c = i.color;
+                c.a = 255;
+                i.color = c;
+            }
+            sw_contrast = true;
+        }
+        else
+        {
+            Debug.Log(images.Length);
+            for (int i = 0; i < images.Length; i++)
+            {
+                images[i].color = colors_bk[i];
+            }
+            sw_contrast = false;
+        }
+
+        
+    }
 }
-                
+
 
 

@@ -5,6 +5,8 @@ using UnityEngine;
 public class accesibilty : MonoBehaviour
 {
     public static bool UAP_sw;
+    public static bool sw_read = false;
+
     public void activar_desactivar_accesibilidad(bool sw)
     {
         UAP_sw = sw;
@@ -18,5 +20,20 @@ public class accesibilty : MonoBehaviour
     {
         Debug.Log(accesibilty.UAP_sw);
         UAP_AccessibilityManager.EnableAccessibility(accesibilty.UAP_sw);
+    }
+
+    public void read_page()
+    {
+        if (!sw_read)
+        {
+            UAP_AccessibilityManager.EnableAccessibility(true);
+            sw_read = true;
+        }
+        else
+        {
+            UAP_AccessibilityManager.EnableAccessibility(false);
+            sw_read = false;
+        }
+        
     }
 }

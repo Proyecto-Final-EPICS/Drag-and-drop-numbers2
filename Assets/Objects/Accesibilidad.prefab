@@ -2009,6 +2009,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4204078152366603766}
     m_Modifications:
+    - target: {fileID: 3101249982734613762, guid: a0d0dcaaaafd748499b5cff0a3651f71, type: 3}
+      propertyPath: popUpObject
+      value: 
+      objectReference: {fileID: 4204078151879106046}
     - target: {fileID: 3101249982734613764, guid: a0d0dcaaaafd748499b5cff0a3651f71, type: 3}
       propertyPath: m_RootOrder
       value: 0

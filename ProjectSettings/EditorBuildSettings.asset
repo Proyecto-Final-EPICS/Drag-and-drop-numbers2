@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 81e1339692f659747a5a0e4dda8f04b8
   - enabled: 1
+    path: Assets/Scenes/verbo to be/verbo to be.unity
+    guid: adb37e53dd11cad40a29538195849b7b
+  - enabled: 1
     path: Assets/Scenes/Juego previo/a.unity
     guid: 681ad62f5a626c84a860b059faaee01d
   - enabled: 1
@@ -37,7 +40,7 @@ EditorBuildSettings:
     guid: 5e5bc68fcbc5f2444a4ecdb405328ea1
   - enabled: 1
     path: "Assets/Scenes/Presentaci\xF3n/presentacion.unity"
-    guid: 39aaf6f786a809349bf6b8fc71f1f10a
+    guid: 2f942becd9dc6f44585e1ebc15b4771c
   - enabled: 1
     path: "Assets/Scenes/Presentaci\xF3n/1.unity"
     guid: 31e05eb84fe79eb4997348a5d969a040
@@ -53,9 +56,6 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Presentaci\xF3n/5.unity"
     guid: 70e905fb8c7955e47a0080d623990b88
-  - enabled: 1
-    path: Assets/Scenes/verbo to be/verbo to be.unity
-    guid: 7548e95ee306be046b9f5426a1da7ac2
   - enabled: 1
     path: Assets/Scenes/verbo to be/6.unity
     guid: 199feefd32e7d1540aa4728e2dc5fe6a
@@ -73,7 +73,7 @@ EditorBuildSettings:
     guid: 2dd2ce4bc4c0ca84baece359f95d2feb
   - enabled: 1
     path: Assets/Scenes/restaurante/restaurante.unity
-    guid: 363a65d1d1ee9604eb38b77e0f2ffed5
+    guid: 74b3bef3b8439df41ab4018fd2f61b26
   - enabled: 1
     path: Assets/Scenes/restaurante/11.unity
     guid: 6e7ed7d245dd502438f850126c24162f
@@ -91,7 +91,7 @@ EditorBuildSettings:
     guid: 257ba0b233b885848af40db10103a4c7
   - enabled: 1
     path: Assets/Scenes/Frases/frases.unity
-    guid: 935153a9aba514041ae03fddfac0fde6
+    guid: bd93f9edad6cbd040baf34597c0343e2
   - enabled: 1
     path: Assets/Scenes/Frases/16.unity
     guid: 852a0c9b29bbc4b48b6f5dafba1474b9

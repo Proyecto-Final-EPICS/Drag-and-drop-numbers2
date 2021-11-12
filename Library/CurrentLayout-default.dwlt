@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 342}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 187
+  controlID: 159
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 342}
   m_MaxSize: {x: 22006, y: 14042}
   vertical: 0
-  controlID: 61
+  controlID: 151
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 405, y: 342}
   m_MaxSize: {x: 12005, y: 8042}
   vertical: 1
-  controlID: 62
+  controlID: 152
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 405, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 43
+  controlID: 62
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,8 +323,8 @@ MonoBehaviour:
     y: 646
     width: 1312
     height: 301
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -386,7 +386,7 @@ MonoBehaviour:
     height: 280
   m_ViewDataDictionary: {fileID: 0}
   _data:
-    _json: '{"locked":false,"isActive":false,"referenceData":{"rootObjectInstanceID":32636,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Ludiq.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Bolt.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":0.0,"yMin":719.0,"xMax":1311.0,"yMax":999.0},"saveChangesMessage":"Ludiq.GraphWindow
+    _json: '{"locked":false,"isActive":false,"referenceData":{"rootObjectInstanceID":40948,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Ludiq.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Bolt.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":0.0,"yMin":719.0,"xMax":1311.0,"yMax":999.0},"saveChangesMessage":"Ludiq.GraphWindow
       has unsaved changes.","m_MinSize":{"x":100.0,"y":100.0},"m_MaxSize":{"x":4000.0,"y":4000.0},"m_TitleContent":{"m_Text":"Flow
       Graph","m_Image":null,"m_Tooltip":""},"m_Pos":{"xMin":0.0,"yMin":719.0,"xMax":1311.0,"yMax":999.0},"m_ViewDataDictionary":null}'
     _objectReferences: []
@@ -418,23 +418,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: f6abffff0caeffffdcafffff88b1ffff66b3ffff40b5ffff34b7ffff26b9ffff22bbffff24bdfffff0bfffff2ec1ffff16c3ffff50c5ffff92c7ffffe0c9ffff86ccffffe2ceffff16d0ffff3ed1ffff14d3fffff2d4ffffccd6ffffa4d8ffff80dcffff36e6ffff6ce6ffff0ce8fffff6eaffff16ecfffffaf5ffff00f6ffffcef6fffffaf9ffff10430000184300003443000038430000944300003a500000885000005e510000c4510000b65300002a5500007e57000066590000225d0000445d00004a5f0000ae610000a4630000a065000076670000c4670000e6690000966a0000c46a0000f26b0000a26c0000d06c0000fe6d0000ae6e0000dc6e00000a700000ba700000e87000002a720000c6720000f472000012740000607400001c76000042780000947a0000567d00001e7f00006c7f0000
+      m_SelectedIDs: 18a00000
+      m_LastClickedID: 40984
+      m_ExpandedIDs: 46baffffeabbffff94bdffff3ebfffffeec0ffff92c2ffff36c4ffffdcc5ffff92c7ffff46c9fffff2caffffa6ccffff50cefffff6cfffffa6d1ffff2ed4ffffdad5ffff82d7ffffd0d9ffff52dcffff9adcffff56ddffff74ddfffff4defffff8deffff02e0ffff0ce1ffff16e2ffff20e3ffff24e3ffff2ee4ffff38e5ffff42e6ffff4ce7ffff56e8ffff60e9ffff6aeaffff74ebffff7eecffff88edffff92eeffff9cefffffa6f0ffffb0f1ffffbaf2ffffc4f3ffffcef4ffffd2f4ffffd6f4ffffdaf4ffffe0f4ffffe4f4ffffe8f4ffffeef4fffff8f5ffff06f7ffff26f8ffff2af8ffff52fbffff76770000a6770000ae770000b6770000c6770000ce770000dc7700000c790000da7a0000107d00003e7e0000168000000c820000208500009086000090890000ee8a0000a68d0000c28f0000ea9100002694000046960000c0980000ba9a0000d49d0000ea9f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: skip
-        m_OriginalName: skip
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -13460
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 11}
       m_SearchString: 
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0.088296875, y: 0.9597893, z: -75.394485}
     speed: 2
-    m_Value: {x: 0.28603724, y: 0.8191739, z: -75.37044}
+    m_Value: {x: 0.088296875, y: 0.9597893, z: -75.394485}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 5.584583
     speed: 2
-    m_Value: 5.3440986
+    m_Value: 5.584583
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -648,22 +648,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scenes/Frases
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 55
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scenes/Frases
   m_LastFoldersGridSize: 55
   m_LastProjectPath: C:\Users\camil\VIP\Byrenn\Drag-and-drop-numbers2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 125}
-    m_SelectedIDs: 38420000
-    m_LastClickedID: 16952
-    m_ExpandedIDs: 00000000de410000384200003c42000000ca9a3b
+    m_SelectedIDs: ae400000
+    m_LastClickedID: 16558
+    m_ExpandedIDs: 00000000784000007a4000009040000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -691,7 +691,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 18}
     m_SelectedIDs: e4440000
     m_LastClickedID: 17636
-    m_ExpandedIDs: ffffffff00000000de4100003c420000
+    m_ExpandedIDs: 00000000784000007a400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -743,7 +743,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 25}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 55
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 200

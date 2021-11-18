@@ -15,6 +15,7 @@ public class accesibilty : MonoBehaviour
     void Start()
     {
         UAP_active();
+        UAP_AccessibilityManager.SetLanguage("spanish");
     }
     public void UAP_active()
     {

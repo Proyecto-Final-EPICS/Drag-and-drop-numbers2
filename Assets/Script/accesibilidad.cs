@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class accesibilidad : MonoBehaviour
 {
-    static bool sw_text = false;
+    static int sw_text = 0;
     static bool sw_space = false;
     static bool sw_contrast = false;
     static int cont = 0;
@@ -23,9 +23,9 @@ public class accesibilidad : MonoBehaviour
         {
             if (t.tag != "Text")
             {
-                if (sw_text)
+                if (sw_text == 2)
                 {
-                    t.fontSize = t.fontSize - num;
+                    t.fontSize = t.fontSize - 2*num;
                 }
                 else
                 {
@@ -34,13 +34,13 @@ public class accesibilidad : MonoBehaviour
             }
             
         }
-        if (sw_text)
+        if (sw_text == 0 || sw_text == 1)
         {
-            sw_text = false;
+            sw_text = sw_text+1;
         }
         else
         {
-            sw_text = true;
+            sw_text = 0;
         }
     }
 

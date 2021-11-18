@@ -628,12 +628,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A continuaci\xF3n ver\xE1 las frases a evaluar con su traducci\xF3n entre
-    parentesis.\n\n-How old are you? (\xBFCuantos a\xF1os tienes?)\n-I am 13 years
-    old (Tengo 13 a\xF1os)\n\n- What is your name? (\xBFComo te llamas?)\n- My name
-    is Breynner (Mi nombre es breynner)\n\n-What do you do? (\xBFA que te dedicas?)\n-
-    I am a student (Soy un estudiante)\n\n- Where are you from? (\xBFDe donde eres?)\n-
-    I am from colombia (Soy de colombia)"
+  m_Text: "A continuaci\xF3n ver\xE1 los conceptos a evaluar con su traducci\xF3n
+    entre parentesis.\n\n- I am (Yo soy/estoy)\n- You are (Tu eres/est\xE1s)\n- He
+    is (El es/est\xE1)\n- She is (Ella es/est\xE1)\n- It is (Eso es/est\xE1)\n- They
+    are (Ellos son/estan)\n- We are (Nosotros somos/estamos)"
 --- !u!222 &758212599
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -735,8 +733,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.91000366, y: -557.17}
-  m_SizeDelta: {x: -53.82, y: 799.26}
+  m_AnchoredPosition: {x: -0.91000366, y: -312.33002}
+  m_SizeDelta: {x: -53.82, y: 309.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066598721
 MonoBehaviour:
@@ -771,9 +769,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A continuaci\xF3n apareceran frase de conversaciones usuales cuando nos
-    presentamos ante alguien nuevo en ingles.\n\nDe las opciones que apareceran en
-    pantalla debe seleccionar la que seria un mejor respuesta a la pregunta hecha."
+  m_Text: "A continuaci\xF3n apareceran oraciones que en cierto puento estan incompletas.\n\nDe
+    las opciones que apareceran en pantalla debe seleccionar la que seria la palabra
+    correcta para completar la oraci\xF3n."
 --- !u!222 &1066598722
 CanvasRenderer:
   m_ObjectHideFlags: 0

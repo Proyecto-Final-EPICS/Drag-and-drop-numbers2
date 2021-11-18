@@ -354,7 +354,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Conceptos:'
+  m_Text: 
 --- !u!222 &556939444
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -553,12 +553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A continuaci\xF3n ver\xE1 las frases a evaluar con su traducci\xF3n entre
-    parentesis.\n\n-How old are you? (\xBFCuantos a\xF1os tienes?)\n-I am 13 years
-    old (Tengo 13 a\xF1os)\n\n- What is your name? (\xBFComo te llamas?)\n- My name
-    is Breynner (Mi nombre es breynner)\n\n-What do you do? (\xBFA que te dedicas?)\n-
-    I am a student (Soy un estudiante)\n\n- Where are you from? (\xBFDe donde eres?)\n-
-    I am from colombia (Soy de colombia)"
+  m_Text: 
 --- !u!222 &758212599
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -696,9 +691,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A continuaci\xF3n apareceran frase de conversaciones usuales cuando nos
-    presentamos ante alguien nuevo en ingles.\n\nDe las opciones que apareceran en
-    pantalla debe seleccionar la que seria un mejor respuesta a la pregunta hecha."
+  m_Text: "A continuaci\xF3n apareceran frase en espa\xF1ol y debera haciendo uso
+    de las opciones traducir la oraci\xF3n en ingles.\n"
 --- !u!222 &1066598722
 CanvasRenderer:
   m_ObjectHideFlags: 0

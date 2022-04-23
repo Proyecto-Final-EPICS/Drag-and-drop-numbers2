@@ -119,6 +119,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.Design.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.Web.xml" />
+     <None Include="Assets\Sprites\new UI\Arvo\OFL.txt" />
      <None Include="Assets\UAP\Resources\UAP_InternalLocalization.txt" />
      <None Include="Assets\Ludiq\Assemblies\Ludiq.Core.Editor.xml" />
      <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Entity.Design.xml" />

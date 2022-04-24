@@ -129,6 +129,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,9 +138,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -940,6 +941,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      correct: 21300066
+      minus: 21300020
+      ans1: 21300004
+      ans4: 21300028
+      mode: 21300062
+      multiply button: 21300038
+      soundoff: 21300026
+      subtract button: 21300032
+      quit: 21300002
+      ans3: 21300008
+      setting: 21300010
+      spriteSheet_76: 21300052
+      title2: 21300058
+      equal: 21300016
+      ques: 21300024
+      info: 21300042
+      divide: 21300018
+      retry: 21300044
+      home: 21300046
+      spriteSheet_77: 21300054
+      soundon: 21300036
+      plus: 21300022
+      add button: 21300030
+      back: 21300012
+      division button: 21300034
+      share: 21300048
+      play: 21300000
+      mix button: 21300040
+      title1: 21300056
+      gameover: 21300068
+      more games: 21300050
+      multiply: 21300014
+      select: 21300060
+      wrong: 21300064
+      ans2: 21300006
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

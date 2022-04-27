@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class accesibilty : MonoBehaviour
 {
@@ -11,7 +12,6 @@ public class accesibilty : MonoBehaviour
     {
         UAP_sw = sw;
     }
-
     void Start()
     {
         UAP_active();

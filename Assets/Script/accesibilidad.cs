@@ -52,17 +52,18 @@ public class accesibilidad : MonoBehaviour
             if (t.tag != "Text")
             {
                 char[] charArr = t.text.ToCharArray();
+                string temp = "";
                 if (sw_space)
                 {
-                    string temp = "";
-                    for (int i = 0; i < charArr.Length-1; i++)
+                    for (int i = 0; i < charArr.Length-2; i++)
                     {
                         char ch = charArr[i];
                         char ch_n = charArr[i+1];
+                        char ch_nn = charArr[i + 2];
                         if (ch != (char)32)
                         {
                             temp = temp + ch;
-                        }else if (ch == (char)32 && ch_n == (char)32)
+                        } if (ch == (char)32 && ch_n == (char)32 && ch_nn == (char)32)
                         {
                             temp = temp + " ";
                         }
@@ -71,18 +72,15 @@ public class accesibilidad : MonoBehaviour
                     {
                         temp = temp + charArr[charArr.Length - 1];
                     }   
-                    t.text = temp;
                 }
                 else
                 {
-                    string temp = "";
                     foreach (char ch in charArr)
                     {
                         temp = temp + " " + ch;
                     }
-                    t.text = temp;
-
                 }
+                t.text = temp;
             }
 
         }

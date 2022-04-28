@@ -2,21 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Bolt;
 
 public class FirstTime : MonoBehaviour
 {
     // Start is called before the first frame update
+    public static bool p;
     void Awake()
     {
-        if (!PlayerPrefs.HasKey("primera"))
+        if (PlayerPrefs.HasKey("primera"))
         {
-            PlayerPrefs.SetString("primera", ".");
+            SceneManager.LoadScene("Login");
+            
         }
-        else
-        {
-            SceneManager.LoadScene("Main");
-        }
-        
     }
 
 }
+

@@ -37,4 +37,8 @@ public class accesibilty : MonoBehaviour
         }
         
     }
+    public void First()
+    {
+        PlayerPrefs.SetString("primera", ".");
+    }
 }

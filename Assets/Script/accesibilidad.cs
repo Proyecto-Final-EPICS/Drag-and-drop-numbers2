@@ -16,6 +16,11 @@ public class accesibilidad : MonoBehaviour
     public Font f_2;
     public Font f_3;
 
+    public GameObject popUpObject;
+    private const float DarkGrey = 0.07f;
+    private readonly Color _darkGrey = new Color(DarkGrey, DarkGrey, DarkGrey, 1);
+
+
     public void Text_plus(int num)
     {
         Text[] texts = FindObjectsOfType<Text>(); ;
@@ -42,6 +47,7 @@ public class accesibilidad : MonoBehaviour
         {
             sw_text = 0;
         }
+        popUpObject.SetActive(false);
     }
 
     public void space_plus()
@@ -92,6 +98,7 @@ public class accesibilidad : MonoBehaviour
         {
             sw_space = true;
         }
+        popUpObject.SetActive(false);
 
     }
 
@@ -121,11 +128,12 @@ public class accesibilidad : MonoBehaviour
         {
             t.font = Font_selected;
         }
+        popUpObject.SetActive(false);
     }
 
     public void increase_contrast()
     {
-        Image[] images = FindObjectsOfType<Image>();
+        /*Image[] images = FindObjectsOfType<Image>();
 
         if (cont == 0)
         {
@@ -159,9 +167,23 @@ public class accesibilidad : MonoBehaviour
                 images[i].color = colors_bk[i];
             }
             sw_contrast = false;
-        }
+        }*/
 
-        
+            foreach (var text in FindObjectsOfType<Text>(true))
+            {
+                
+                text.color = text.color == Color.white ? _darkGrey : Color.white;
+            }
+            foreach (var image in FindObjectsOfType<Image>(true))
+            {
+            if (image.tag != "LevelRectangle")
+            {
+                image.color = image.color == Color.white ? _darkGrey : Color.white;
+            }
+           
+            }
+            sw_contrast = true;
+        popUpObject.SetActive(false);
     }
 }
 

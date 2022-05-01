@@ -436,7 +436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2992728201583802467
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2042,7 +2042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.2901961}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2305,7 +2305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.30588236}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2333,7 +2333,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4204078152366603766}
     m_Modifications:
+    - target: {fileID: 3101249982734613761, guid: a0d0dcaaaafd748499b5cff0a3651f71, type: 3}
+      propertyPath: f_2
+      value: 
+      objectReference: {fileID: 12800000, guid: 98311a1aef29b9b4c98408fa838c5020, type: 3}
+    - target: {fileID: 3101249982734613761, guid: a0d0dcaaaafd748499b5cff0a3651f71, type: 3}
+      propertyPath: popUpObject
+      value: 
+      objectReference: {fileID: 4204078151879106046}
     - target: {fileID: 3101249982734613762, guid: a0d0dcaaaafd748499b5cff0a3651f71, type: 3}
+      propertyPath: popUpObject
+      value: 
+      objectReference: {fileID: 4204078151879106046}
+    - target: {fileID: 3101249982734613763, guid: a0d0dcaaaafd748499b5cff0a3651f71, type: 3}
       propertyPath: popUpObject
       value: 
       objectReference: {fileID: 4204078151879106046}

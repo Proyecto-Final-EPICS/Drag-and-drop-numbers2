@@ -10,16 +10,24 @@ public class Send_Data : MonoBehaviour
    public SessionGame session;
    public string level;
    public int score_lvl;
+   public string idseccion;
+   public string idgame;
+   public string namegame;
+   public int totalp;
+   public int pcorrectas;
+   public int pincorrectas;
 
-   public void send(List<Parameter> prms){
+    public void send(List<Parameter> prms){
        string username = (string)Variables.Application.Get("username");
        string school = (string)Variables.Application.Get("colegio");
        session.Student = new Student(username,school);
-       session.Game.levels.Add(new Level(level,prms));
-        session.Game.nameGame = (string)Variables.Application.Get("game_name");
-        string global_score = (string)Variables.Application.Get("score");
-       session.Game.score = (score_lvl + Int32.Parse(global_score)).ToString();
-       Variables.Application.Set("score",session.Game.score);
+        session.Game.idgame = idgame;
+        session.Game.namegame = namegame;
+        session.Game.Totalp = totalp;
+        session.Game.pcorrectas = pcorrectas;
+        session.Game.pincorrectas = pincorrectas;
+
+
        string json = JsonUtility.ToJson(session);
         UnityWebRequest webRequest = new UnityWebRequest("https://vip-epics-dev.herokuapp.com/sessionGame", "PUT");
         byte[] encodedPayload = new System.Text.UTF8Encoding().GetBytes(json);

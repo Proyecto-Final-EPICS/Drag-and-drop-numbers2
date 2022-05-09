@@ -110,4 +110,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/puntaje.unity
     guid: 46e89c1de32fb8e4d8df8ee04270028a
+  - enabled: 1
+    path: Assets/Scenes/gano.unity
+    guid: c8965c6996738404aa3a142d1b3d3af0
+  - enabled: 1
+    path: Assets/Scenes/perdio.unity
+    guid: ab07bc0dd6c42074c8319681e1ea242b
   m_configObjects: {}

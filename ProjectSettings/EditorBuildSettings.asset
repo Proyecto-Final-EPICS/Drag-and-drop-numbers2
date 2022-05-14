@@ -42,13 +42,13 @@ EditorBuildSettings:
     path: "Assets/Scenes/Presentaci\xF3n/presentacion.unity"
     guid: 2f942becd9dc6f44585e1ebc15b4771c
   - enabled: 1
-    path: "Assets/Scenes/Presentaci\xF3n/1.unity"
+    path: "Assets/Scenes/Presentaci\xF3n/1p.unity"
     guid: 31e05eb84fe79eb4997348a5d969a040
   - enabled: 1
-    path: "Assets/Scenes/Presentaci\xF3n/2.unity"
+    path: "Assets/Scenes/Presentaci\xF3n/2p.unity"
     guid: c8b7938d3e95dad479af076f5d1149b5
   - enabled: 1
-    path: "Assets/Scenes/Presentaci\xF3n/3.unity"
+    path: "Assets/Scenes/Presentaci\xF3n/3p.unity"
     guid: 3918df85a707f544296ca38eaea2c6cc
   - enabled: 1
     path: "Assets/Scenes/Presentaci\xF3n/4.unity"

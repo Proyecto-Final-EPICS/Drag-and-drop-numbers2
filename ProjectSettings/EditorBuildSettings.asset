@@ -75,19 +75,19 @@ EditorBuildSettings:
     path: Assets/Scenes/restaurante/restaurante.unity
     guid: 74b3bef3b8439df41ab4018fd2f61b26
   - enabled: 1
-    path: Assets/Scenes/restaurante/11.unity
+    path: Assets/Scenes/restaurante/1r.unity
     guid: 6e7ed7d245dd502438f850126c24162f
   - enabled: 1
-    path: Assets/Scenes/restaurante/12.unity
+    path: Assets/Scenes/restaurante/2r.unity
     guid: bd74021778ac342468b1a3999493853b
   - enabled: 1
-    path: Assets/Scenes/restaurante/13.unity
+    path: Assets/Scenes/restaurante/3r.unity
     guid: 4ee88b79339dce744a5c23d866023aaf
   - enabled: 1
-    path: Assets/Scenes/restaurante/14.unity
+    path: Assets/Scenes/restaurante/4r.unity
     guid: b23967b1ae5e75145970207d03ed38b8
   - enabled: 1
-    path: Assets/Scenes/restaurante/15.unity
+    path: Assets/Scenes/restaurante/5r.unity
     guid: 257ba0b233b885848af40db10103a4c7
   - enabled: 1
     path: Assets/Scenes/Frases/frases.unity

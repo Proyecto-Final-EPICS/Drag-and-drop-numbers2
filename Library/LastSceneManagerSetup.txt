@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Frases/17.unity
+- path: "Assets/Scenes/Presentaci\xF3n/10p.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

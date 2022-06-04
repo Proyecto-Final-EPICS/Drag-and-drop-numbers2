@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: fbe88a44cf23b4441adc16fb3f713018
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Karla
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 90fc9de0cb0e10e4481c4e86abd2bde8, type: 3}
+  - {fileID: 12800000, guid: d6f2f1dd95d12954087514d7c953d791, type: 3}
+  - {fileID: 12800000, guid: ea2658007fbd8194eb0096bd59bcf9d2, type: 3}
+  - {fileID: 12800000, guid: 5b882efbf6e5138448832a6a59672e6a, type: 3}
+  - {fileID: 12800000, guid: 23633e82938b663438775e9929fadd14, type: 3}
+  - {fileID: 12800000, guid: d5e51f3a4e0f9d2418a3686d58368467, type: 3}
+  - {fileID: 12800000, guid: 3630e17dd6be7e04e84ef4806773f59f, type: 3}
+  - {fileID: 12800000, guid: 0689a329fe79713458ed08d46f254cf2, type: 3}
+  - {fileID: 12800000, guid: 34be749d22206644aafb248706f44aac, type: 3}
+  - {fileID: 12800000, guid: 2724dda23096070449e2e69736aca502, type: 3}
+  - {fileID: 12800000, guid: 0b82258763a7d5a40b2c0ce3f1c7a37e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

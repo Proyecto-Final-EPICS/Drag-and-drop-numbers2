@@ -129,6 +129,7 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Routing.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.DirectoryServices.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Configuration.Install.xml" />
+    <None Include="Assets\Sprites\new UI\Karla\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Data.Entity.Design.xml" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.Web.xml" />
@@ -183,6 +184,7 @@
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.VisualC.STLCLR.xml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.ServiceModel.xml" />
+    <None Include="Assets\Sprites\new UI\Karla\OFL.txt" />
     <None Include="Assets\UAP\Plugins\x86_64\WindowsTTS.dll" />
     <None Include="Assets\Ludiq\Assemblies\Ludiq.Platforms.dll" />
     <None Include="Assets\Ludiq\Ludiq.Core\DotNetDocumentation\System.Deployment.xml" />

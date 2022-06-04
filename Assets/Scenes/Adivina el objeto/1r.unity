@@ -271,7 +271,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Fork
+  m_Text: Smartphone
 --- !u!222 &136769623
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -584,7 +584,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SmartPhone
+  m_Text: Fork
 --- !u!222 &345223313
 CanvasRenderer:
   m_ObjectHideFlags: 0

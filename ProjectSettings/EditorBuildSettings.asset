@@ -15,32 +15,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 81e1339692f659747a5a0e4dda8f04b8
   - enabled: 1
-    path: "Assets/Scenes/Completa la oraci\xF3n/verbo to be.unity"
-    guid: adb37e53dd11cad40a29538195849b7b
+    path: Assets/Scenes/puntaje.unity
+    guid: 46e89c1de32fb8e4d8df8ee04270028a
   - enabled: 1
-    path: Assets/Scenes/Juego previo/a.unity
-    guid: 681ad62f5a626c84a860b059faaee01d
+    path: Assets/Scenes/gano.unity
+    guid: c8965c6996738404aa3a142d1b3d3af0
   - enabled: 1
-    path: Assets/Scenes/Juego previo/b.unity
-    guid: 0842163773469c04091d84f8640d605c
-  - enabled: 1
-    path: Assets/Scenes/Juego previo/c.unity
-    guid: fa03417df3ff75a479be2593129ecaf6
-  - enabled: 1
-    path: Assets/Scenes/Juego previo/d.unity
-    guid: d9cc61467307ad645bce08a0526a2aa4
-  - enabled: 1
-    path: Assets/Scenes/Juego previo/e.unity
-    guid: 961d26664b1eeac45b67e524e54d84e5
-  - enabled: 1
-    path: Assets/Scenes/Juego previo/f.unity
-    guid: b3a5f5d08446c9b4d929584ef3ba5d85
-  - enabled: 1
-    path: Assets/Scenes/Juego previo/g.unity
-    guid: 5e5bc68fcbc5f2444a4ecdb405328ea1
-  - enabled: 1
-    path: Assets/Scenes/Preguntas basicas/presentacion.unity
-    guid: 2f942becd9dc6f44585e1ebc15b4771c
+    path: Assets/Scenes/perdio.unity
+    guid: ab07bc0dd6c42074c8319681e1ea242b
   - enabled: 1
     path: Assets/Scenes/Preguntas basicas/1p.unity
     guid: 31e05eb84fe79eb4997348a5d969a040
@@ -48,14 +30,32 @@ EditorBuildSettings:
     path: Assets/Scenes/Preguntas basicas/2p.unity
     guid: c8b7938d3e95dad479af076f5d1149b5
   - enabled: 1
+    path: Assets/Scenes/Preguntas basicas/3p.unity
+    guid: a4c6d025fad903d44869d3fc03b5d9ab
+  - enabled: 1
     path: Assets/Scenes/Preguntas basicas/4p.unity
     guid: 3918df85a707f544296ca38eaea2c6cc
   - enabled: 1
     path: Assets/Scenes/Preguntas basicas/5p.unity
     guid: 3cd81809916e8ff428050399b83c2b5f
   - enabled: 1
-    path: "Assets/Scenes/Presentaci\xF3n/6p.unity"
-    guid: 70e905fb8c7955e47a0080d623990b88
+    path: Assets/Scenes/Preguntas basicas/6p.unity
+    guid: 16a4eeb4dafc98143967f9c97343a246
+  - enabled: 1
+    path: Assets/Scenes/Preguntas basicas/7p.unity
+    guid: d30366d9fcdb1354abb4dd037cd3f12f
+  - enabled: 1
+    path: Assets/Scenes/Preguntas basicas/8p.unity
+    guid: 697f3b44b78992a4790f93d8d91ec76e
+  - enabled: 1
+    path: Assets/Scenes/Preguntas basicas/9p.unity
+    guid: e8fc019ffaf23c1498f5c429d0040358
+  - enabled: 1
+    path: Assets/Scenes/Preguntas basicas/10p.unity
+    guid: 71993cb07cf5d51479e3b5919c1659d5
+  - enabled: 1
+    path: Assets/Scenes/Preguntas basicas/presentacion.unity
+    guid: 2f942becd9dc6f44585e1ebc15b4771c
   - enabled: 1
     path: "Assets/Scenes/Completa la oraci\xF3n/6.unity"
     guid: 199feefd32e7d1540aa4728e2dc5fe6a
@@ -72,8 +72,8 @@ EditorBuildSettings:
     path: "Assets/Scenes/Completa la oraci\xF3n/10.unity"
     guid: 2dd2ce4bc4c0ca84baece359f95d2feb
   - enabled: 1
-    path: Assets/Scenes/Adivina el objeto/restaurante.unity
-    guid: 74b3bef3b8439df41ab4018fd2f61b26
+    path: "Assets/Scenes/Completa la oraci\xF3n/verbo to be.unity"
+    guid: adb37e53dd11cad40a29538195849b7b
   - enabled: 1
     path: Assets/Scenes/Adivina el objeto/1r.unity
     guid: 6e7ed7d245dd502438f850126c24162f
@@ -90,8 +90,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Adivina el objeto/5r.unity
     guid: 257ba0b233b885848af40db10103a4c7
   - enabled: 1
-    path: Assets/Scenes/Traduce/frases.unity
-    guid: bd93f9edad6cbd040baf34597c0343e2
+    path: Assets/Scenes/Adivina el objeto/6r.unity
+    guid: f011fac05bae6c143bd071c7928d9f2a
+  - enabled: 1
+    path: Assets/Scenes/Adivina el objeto/7r.unity
+    guid: 9790d4094c8160047a626cbb5eb176c6
+  - enabled: 1
+    path: Assets/Scenes/Adivina el objeto/8r.unity
+    guid: 53a44f1b322ea2b45a312b205766f4c1
+  - enabled: 1
+    path: Assets/Scenes/Adivina el objeto/9r.unity
+    guid: ff4818236867d2c4884b3f7f56c48bcd
+  - enabled: 1
+    path: Assets/Scenes/Adivina el objeto/10r.unity
+    guid: 092795f6df4a23c46b8d7b9ec75000f4
+  - enabled: 1
+    path: Assets/Scenes/Adivina el objeto/restaurante.unity
+    guid: 74b3bef3b8439df41ab4018fd2f61b26
   - enabled: 1
     path: Assets/Scenes/Traduce/16.unity
     guid: 852a0c9b29bbc4b48b6f5dafba1474b9
@@ -105,15 +120,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Traduce/19.unity
     guid: 9329bc37b8a33ba46a4d6f80afc1b2b0
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/puntaje.unity
-    guid: 46e89c1de32fb8e4d8df8ee04270028a
-  - enabled: 1
-    path: Assets/Scenes/gano.unity
-    guid: c8965c6996738404aa3a142d1b3d3af0
-  - enabled: 1
-    path: Assets/Scenes/perdio.unity
-    guid: ab07bc0dd6c42074c8319681e1ea242b
+    path: Assets/Scenes/Traduce/frases.unity
+    guid: bd93f9edad6cbd040baf34597c0343e2
   m_configObjects: {}

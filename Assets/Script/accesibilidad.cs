@@ -182,7 +182,7 @@ public class accesibilidad : MonoBehaviour
             }
             foreach (var image in FindObjectsOfType<Image>(true))
             {
-            if (image.tag != "LevelRectangle")
+            if (image.tag != "LevelRectangle" && image.name != "Touch Blocker" && image.name != "Active Item Frame" && image.name != "Active Item Frame Template")
             {
                 image.color = image.color == Color.white ? _darkGrey : Color.white;
             }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Text
   - LevelRectangle
+  - numbers
   layers:
   - Default
   - TransparentFX

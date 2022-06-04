@@ -126,7 +126,10 @@ public class accesibilidad : MonoBehaviour
         }
         foreach (Text t in texts)
         {
-            t.font = Font_selected;
+            if(t.tag != "numbers")
+            {
+                t.font = Font_selected;
+            } 
         }
         popUpObject.SetActive(false);
     }
@@ -171,7 +174,7 @@ public class accesibilidad : MonoBehaviour
 
             foreach (var text in FindObjectsOfType<Text>(true))
             {
-                if(text.tag != "LevelRectangle")
+                if(text.tag != "LevelRectangle" && text.tag != "numbers")
             {
                 text.color = text.color == Color.white ? _darkGrey : Color.white;
             }

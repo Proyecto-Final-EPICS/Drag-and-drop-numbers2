@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 254142325}
   m_Layer: 5
   m_Name: label-colegio
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -801,7 +801,7 @@ GameObject:
   - component: {fileID: 287711732}
   m_Layer: 5
   m_Name: Panel
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1010,7 +1010,7 @@ GameObject:
   - component: {fileID: 324490633}
   m_Layer: 5
   m_Name: label-usuario
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1402,7 +1402,7 @@ GameObject:
   - component: {fileID: 445409990}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2106,11 +2106,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 98311a1aef29b9b4c98408fa838c5020, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 4
     m_MaxSize: 40
     m_Alignment: 3
     m_AlignByGeometry: 0
@@ -2194,7 +2194,7 @@ GameObject:
   - component: {fileID: 1190293808}
   m_Layer: 5
   m_Name: label-contrasena
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2540,7 +2540,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 28}
+  m_SizeDelta: {x: 0, y: 70}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1439466565
 GameObject:
@@ -2553,7 +2553,7 @@ GameObject:
   - component: {fileID: 1439466566}
   m_Layer: 5
   m_Name: Form
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2600,7 +2600,7 @@ GameObject:
   - component: {fileID: 1486769552}
   m_Layer: 5
   m_Name: Panel
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2794,7 +2794,7 @@ GameObject:
   - component: {fileID: 1667850145}
   m_Layer: 5
   m_Name: Ingresar
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3057,10 +3057,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Accesibilidad
       objectReference: {fileID: 0}
+    - target: {fileID: 4204078152366603529, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
+      propertyPath: m_TagString
+      value: LevelRectangle
+      objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603765, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 88ef414ff33f68943a8661807c701d57, type: 3}
+      objectReference: {fileID: 21300000, guid: ce5026bc2c7dd0445b12a1147a1c16bf, type: 3}
     - target: {fileID: 4204078152366603765, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_Color.a
       value: 1
@@ -3389,7 +3393,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 20}
+  m_SizeDelta: {x: 0, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1743469755
 MonoBehaviour:

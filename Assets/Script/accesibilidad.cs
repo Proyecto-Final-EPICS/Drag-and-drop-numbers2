@@ -171,8 +171,11 @@ public class accesibilidad : MonoBehaviour
 
             foreach (var text in FindObjectsOfType<Text>(true))
             {
-                
+                if(text.tag != "LevelRectangle")
+            {
                 text.color = text.color == Color.white ? _darkGrey : Color.white;
+            }
+                
             }
             foreach (var image in FindObjectsOfType<Image>(true))
             {

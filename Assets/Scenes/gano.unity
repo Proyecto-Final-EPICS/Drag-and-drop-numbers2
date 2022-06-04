@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 255633996}
   m_Layer: 5
   m_Name: Panel
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 256233860}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -358,18 +358,18 @@ PrefabInstance:
     - target: {fileID: 4204078152366603765, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 88ef414ff33f68943a8661807c701d57, type: 3}
+      objectReference: {fileID: 21300000, guid: ce5026bc2c7dd0445b12a1147a1c16bf, type: 3}
     - target: {fileID: 4204078152366603765, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603765, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603765, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603766, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_Pivot.x
@@ -475,7 +475,7 @@ GameObject:
   - component: {fileID: 343456042}
   m_Layer: 5
   m_Name: Panel (1)
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 802386994}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -713,7 +713,7 @@ GameObject:
   - component: {fileID: 919793309}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: LevelRectangle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

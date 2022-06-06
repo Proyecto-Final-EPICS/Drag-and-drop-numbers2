@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Traduce/1t.unity
+- path: "Assets/Scenes/Completa la oraci\xF3n/6c.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

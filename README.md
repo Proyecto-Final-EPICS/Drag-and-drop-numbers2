@@ -1,7 +1,7 @@
 
-# Ingles para todos
+# English for everyone
 
-A unity application available for Android devices focused on the task of teaching English to people who it's the native language is Spanish with visual disabilities and bad sight.
+An unity application available for Android devices focused on the task of teaching English to people whose native language is Spanish and suffer from visual disabilities and bad sight.
 
 ![BeFunky-collage](https://user-images.githubusercontent.com/61607058/166154804-91028f91-cbf7-460a-8c0a-8afd5cf55259.jpg)
 
@@ -16,21 +16,13 @@ A unity application available for Android devices focused on the task of teachin
 - [@Pedro2901](https://github.com/Pedro2901)
 - [@SJanna](https://github.com/SJanna)
 
-
-
-
-
-
 ## Demo
 
 ![final_626eb93ab51522005ff4f7c4_177680 (1)](https://user-images.githubusercontent.com/61607058/166155790-2532d1f3-db08-42bb-bd3c-29b9d44f4e92.gif)
 
-
-
 ## Documentation
 
 To know more about the project and how it was developed, visit: [Documentation](https://github.com/Proyecto-Final-EPICS/Documentacion)
-
 
 ## Installation
 

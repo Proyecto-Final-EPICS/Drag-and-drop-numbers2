@@ -9,21 +9,20 @@ public class accesibilty : MonoBehaviour
     public static bool sw_read = false;
     public GameObject popUpObject;
 
+    // changes the accesible mode boolean controler
     public void activar_desactivar_accesibilidad(bool sw)
     {
         UAP_sw = sw;
     }
-    /*void Start()
-    {
-        UAP_active();
-        UAP_AccessibilityManager.SetLanguage("spanish");
-    }*/
+
+    // activates and unables the accesible mode
     public void UAP_active()
     {
         Debug.Log(accesibilty.UAP_sw);
         UAP_AccessibilityManager.EnableAccessibility(accesibilty.UAP_sw);
     }
 
+    // activates the function to read page
     public void read_page()
     {
         if (!sw_read)
@@ -39,6 +38,8 @@ public class accesibilty : MonoBehaviour
         popUpObject.SetActive(false);
 
     }
+
+    // it's called when the user opens the app for the first time and completes the initial scene
     public void First()
     {
         PlayerPrefs.SetString("primera", ".");

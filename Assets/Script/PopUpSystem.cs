@@ -6,6 +6,8 @@ public class PopUpSystem : MonoBehaviour
 {
     public GameObject popUpObject;
     public Animator animator;
+
+    // Opens and closes the accesible menu
     public void PopUp()
     {
         if(popUpObject.activeSelf == false)

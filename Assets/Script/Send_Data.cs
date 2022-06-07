@@ -5,6 +5,7 @@ using UnityEngine.Networking;
 using Bolt;
 using System;
 
+// this class is occupied to send the data to the database
 public class Send_Data : MonoBehaviour
 {
    public SessionGame session;

@@ -6,8 +6,9 @@ using Bolt;
 
 public class FirstTime : MonoBehaviour
 {
-    // Start is called before the first frame update
     public static bool p;
+
+    // Put the user in the login scene if its not the first time in the app
     void Awake()
     {
         if (PlayerPrefs.HasKey("primera"))

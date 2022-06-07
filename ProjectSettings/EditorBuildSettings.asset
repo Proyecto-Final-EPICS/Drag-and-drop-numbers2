@@ -72,6 +72,51 @@ EditorBuildSettings:
     path: "Assets/Scenes/Completa la oraci\xF3n/5c.unity"
     guid: 2dd2ce4bc4c0ca84baece359f95d2feb
   - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/6c.unity"
+    guid: 8a2419f73039e504f82aff8b0e6e699e
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/7c.unity"
+    guid: 7bc74f7b4b704b049ba51940f90bc584
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/8c.unity"
+    guid: 3e26c294c1f059b43a110afcf89015de
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/9c.unity"
+    guid: 64ae75b1d8c7b52438d33674aefbec39
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/10c.unity"
+    guid: 6349fc756e2894f4696cfb685630c5a3
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/11c.unity"
+    guid: f4975eb48a5cd6b4b9234f7bebe5e6b5
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/12c.unity"
+    guid: 7c25d75bdce01084cbdffa3840515aa9
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/13c.unity"
+    guid: 4155fec565936aa4785a748bb706ee77
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/14c.unity"
+    guid: c9dd0c95be978444fa4325df4c26f7a8
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/15c.unity"
+    guid: ab57681b0a1db2e40aa0d93e5b9ec39c
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/16c.unity"
+    guid: 4fef65be5cb40654684163c2cad1fdb9
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/17c.unity"
+    guid: b8c4ebaa1b8e7564e8d28dd110a2c865
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/18c.unity"
+    guid: b7c700f1ca8936a4b9a612bcf9a10535
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/19c.unity"
+    guid: 240d1f5682edb6c4cbaada0340535380
+  - enabled: 1
+    path: "Assets/Scenes/Completa la oraci\xF3n/20c.unity"
+    guid: 84aad849b8c6d89459ca9eef5bdc8e0a
+  - enabled: 1
     path: "Assets/Scenes/Completa la oraci\xF3n/verbo to be.unity"
     guid: adb37e53dd11cad40a29538195849b7b
   - enabled: 1

@@ -20,7 +20,7 @@ public class accesibilidad : MonoBehaviour
     private const float DarkGrey = 0.07f;
     private readonly Color _darkGrey = new Color(DarkGrey, DarkGrey, DarkGrey, 1);
 
-
+    // gets bigger the text size
     public void Text_plus(int num)
     {
         Text[] texts = FindObjectsOfType<Text>(); ;
@@ -50,6 +50,7 @@ public class accesibilidad : MonoBehaviour
         popUpObject.SetActive(false);
     }
 
+    // increase the space between letters
     public void space_plus()
     {
         Text[] texts = FindObjectsOfType<Text>(); 
@@ -102,6 +103,7 @@ public class accesibilidad : MonoBehaviour
 
     }
 
+    // change the font family
     public void font_change()
     {
         Text[] texts = FindObjectsOfType<Text>();
@@ -134,61 +136,26 @@ public class accesibilidad : MonoBehaviour
         popUpObject.SetActive(false);
     }
 
+    // increase the constrast of the UI
     public void increase_contrast()
     {
-        /*Image[] images = FindObjectsOfType<Image>();
-
-        if (cont == 0)
+        foreach (var text in FindObjectsOfType<Text>(true))
         {
-            colors_bk = new Color[images.Length];
-            Debug.Log(images.Length);
-            for (int i = 0; i < images.Length; i++)
-            {
-                Color c = images[i].color;
-                colors_bk[i] = c;
-            }
-            cont = cont + 1;
-
+            if(text.tag != "LevelRectangle" && text.tag != "numbers")
+        {
+            text.color = text.color == Color.white ? _darkGrey : Color.white;
         }
-
-
-        if (!sw_contrast)
-        {
-            foreach (Image i in images)
-            {
-                Color c = i.color;
-                c.a = 255;
-                i.color = c;
-            }
-            sw_contrast = true;
-        }
-        else
-        {
-            Debug.Log(images.Length);
-            for (int i = 0; i < images.Length; i++)
-            {
-                images[i].color = colors_bk[i];
-            }
-            sw_contrast = false;
-        }*/
-
-            foreach (var text in FindObjectsOfType<Text>(true))
-            {
-                if(text.tag != "LevelRectangle" && text.tag != "numbers")
-            {
-                text.color = text.color == Color.white ? _darkGrey : Color.white;
-            }
                 
-            }
-            foreach (var image in FindObjectsOfType<Image>(true))
-            {
-            if (image.tag != "LevelRectangle" && image.name != "Touch Blocker" && image.name != "Active Item Frame" && image.name != "Active Item Frame Template")
-            {
-                image.color = image.color == Color.white ? _darkGrey : Color.white;
-            }
+        }
+        foreach (var image in FindObjectsOfType<Image>(true))
+        {
+        if (image.tag != "LevelRectangle" && image.name != "Touch Blocker" && image.name != "Active Item Frame" && image.name != "Active Item Frame Template")
+        {
+            image.color = image.color == Color.white ? _darkGrey : Color.white;
+        }
            
-            }
-            sw_contrast = true;
+        }
+        sw_contrast = true;
         popUpObject.SetActive(false);
     }
 }

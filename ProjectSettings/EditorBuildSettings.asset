@@ -150,6 +150,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Adivina el objeto/10r.unity
     guid: 092795f6df4a23c46b8d7b9ec75000f4
   - enabled: 1
+    path: Assets/Scenes/Adivina el objeto/11r.unity
+    guid: 0fbf81a009666184f96c0e03fa9232d7
+  - enabled: 1
+    path: Assets/Scenes/Adivina el objeto/12r.unity
+    guid: 07f66cc98a1a5ad459eed20f2097e562
+  - enabled: 1
     path: Assets/Scenes/Adivina el objeto/restaurante.unity
     guid: 74b3bef3b8439df41ab4018fd2f61b26
   - enabled: 1

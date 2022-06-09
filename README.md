@@ -1,5 +1,5 @@
 
-# English for everyone
+# Play and learn
 
 An unity application available for Android devices focused on the task of teaching English to people whose native language is Spanish and suffer from visual disabilities and bad sight.
 

@@ -1072,7 +1072,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu de accesibilidad
+  m_Text: "Men\xFA de accesibilidad"
 --- !u!1 &4204078151879106046
 GameObject:
   m_ObjectHideFlags: 0

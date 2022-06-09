@@ -30,7 +30,7 @@ public class Send_Data : MonoBehaviour
 
 
        string json = JsonUtility.ToJson(session);
-        UnityWebRequest webRequest = new UnityWebRequest("https://vip-epics-dev.herokuapp.com/sessionGame", "PUT");
+        UnityWebRequest webRequest = new UnityWebRequest("https://vip-epics-api.herokuapp.com/v2.0/game/session", "PUT");
         byte[] encodedPayload = new System.Text.UTF8Encoding().GetBytes(json);
         webRequest.uploadHandler = (UploadHandler) new UploadHandlerRaw(encodedPayload);
         webRequest.downloadHandler = (DownloadHandler) new DownloadHandlerBuffer();

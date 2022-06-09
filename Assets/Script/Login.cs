@@ -37,7 +37,7 @@ public class Login : MonoBehaviour
     {
         ColegioListObject colegiosList;
         string json;
-        UnityWebRequest request = UnityWebRequest.Get("https://vip-epics-dev.herokuapp.com/getSchools");
+        UnityWebRequest request = UnityWebRequest.Get("https://vip-epics-api.herokuapp.com/v2.0/game/schools");
         yield return request.SendWebRequest();
  
             if (request.isNetworkError) {

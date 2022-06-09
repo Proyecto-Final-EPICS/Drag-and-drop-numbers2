@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -317,7 +317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.7399902, y: -498.04}
+  m_AnchoredPosition: {x: 2.7399902, y: -513.2201}
   m_SizeDelta: {x: -52.72, y: 92.19995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556939443
@@ -341,8 +341,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 98311a1aef29b9b4c98408fa838c5020, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: e1b3f8826b0dd4440a5e29099862a3ce, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -516,7 +516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.7399902, y: -813}
+  m_AnchoredPosition: {x: 2.7399902, y: -828.1803}
   m_SizeDelta: {x: -52.72, y: 537.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &758212598
@@ -553,9 +553,9 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "A continuaci\xF3n ver\xE1 los conceptos a evaluar con su traducci\xF3n
-    entre parentesis.\n\n- I am (Yo soy/estoy)\n- You are (Tu eres/est\xE1s)\n- He
-    is (El es/est\xE1)\n- She is (Ella es/est\xE1)\n- It is (Eso es/est\xE1)\n- They
-    are (Ellos son/estan)\n- We are (Nosotros somos/estamos)"
+    entre par\xE9ntesis.\n\n- I am (Yo soy/estoy)\n- You are (Tu eres/est\xE1s)\n-
+    He is (El es/est\xE1)\n- She is (Ella es/est\xE1)\n- It is (Eso es/est\xE1)\n-
+    They are (Ellos son/est\xE1n)\n- We are (Nosotros somos/estamos)"
 --- !u!222 &758212599
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -693,9 +693,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A continuaci\xF3n apareceran oraciones que en cierto puento estan incompletas.\n\nDe
-    las opciones que apareceran en pantalla debe seleccionar la que seria la palabra
-    correcta para completar la oraci\xF3n."
+  m_Text: "A continuaci\xF3n aparecer\xE1n oraciones que en cierto punto est\xE1n
+    incompletas.\r\n\r\nDe las opciones que aparecer\xE1n en pantalla debe seleccionar
+    la que ser\xEDa la palabra correcta para completar la oraci\xF3n.\r"
 --- !u!222 &1066598722
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1482,11 +1482,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603766, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -37.39
+      value: -37.390015
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603766, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 38.8
+      value: 38.80005
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603766, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1566,8 +1566,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 98311a1aef29b9b4c98408fa838c5020, type: 3}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: e1b3f8826b0dd4440a5e29099862a3ce, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1578,7 +1578,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Intrucciones:'
+  m_Text: 'Instrucciones:'
 --- !u!222 &1862252432
 CanvasRenderer:
   m_ObjectHideFlags: 0

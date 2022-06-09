@@ -1221,7 +1221,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Uses a notable hat
+  m_Text: It uses a notable hat
 --- !u!222 &797657454
 CanvasRenderer:
   m_ObjectHideFlags: 0

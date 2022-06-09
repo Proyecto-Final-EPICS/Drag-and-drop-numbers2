@@ -553,7 +553,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "A continuaci\xF3n ver\xE1 las palabras a evaluar con su traducci\xF3n
-    entre parentesis.\n\n- Fork (tenedor)\n- Spoon (Cuchara)\n- Knife (cuchillo)\n-
+    entre par\xE9ntesis.\n\n- Fork (tenedor)\n- Spoon (Cuchara)\n- Knife (cuchillo)\n-
     Chef (Cocinero)\n- Spagetti (Espagueti)\n- Waitress (Camarera)\n\n"
 --- !u!222 &758212599
 CanvasRenderer:
@@ -1477,11 +1477,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603766, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -50.897995
+      value: -50.89801
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603766, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 55.690002
+      value: 55.68994
       objectReference: {fileID: 0}
     - target: {fileID: 4204078152366603766, guid: 00427f25f7957c34597c07939ec4eb2c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1573,7 +1573,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Intrucciones:'
+  m_Text: 'Instrucciones:'
 --- !u!222 &1862252432
 CanvasRenderer:
   m_ObjectHideFlags: 0

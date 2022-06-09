@@ -1,9 +1,9 @@
 
-# English for everyone
+# Play and learn
 
 An unity application available for Android devices focused on the task of teaching English to people whose native language is Spanish and suffer from visual disabilities and bad sight.
 
-![BeFunky-collage](https://user-images.githubusercontent.com/61607058/166154804-91028f91-cbf7-460a-8c0a-8afd5cf55259.jpg)
+![collage-playandlearn](https://user-images.githubusercontent.com/61607058/172956112-8c1f4697-7f93-4436-9ee1-625064171a96.png)
 
 
 ## Authors
@@ -18,11 +18,15 @@ An unity application available for Android devices focused on the task of teachi
 
 ## Demo
 
-![final_626eb93ab51522005ff4f7c4_177680 (1)](https://user-images.githubusercontent.com/61607058/166155790-2532d1f3-db08-42bb-bd3c-29b9d44f4e92.gif)
+![final_62a2756fe7e4e50066e26908_115526](https://user-images.githubusercontent.com/61607058/172956479-ad35eb19-a8c2-4a8b-8de6-44e063096f89.gif)
 
 ## Documentation
 
 To know more about the project and how it was developed, visit: [Documentation](https://github.com/Proyecto-Final-EPICS/Documentacion)
+
+## Try the app 
+
+Click [here]() to download the apk and try the app in android.
 
 ## Installation
 
@@ -35,5 +39,6 @@ To download the application, you must go to the right area of ​​the screen, 
     
 ## Screenshots
 
-![ss](https://user-images.githubusercontent.com/61607058/166154923-0c411c99-507c-4a72-9d0d-9dee5259a341.png)
+![Captura de pantalla (110)](https://user-images.githubusercontent.com/61607058/172956568-7a5ecac0-4884-43f5-baf2-71142d11d5b4.png)
+
 

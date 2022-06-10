@@ -5,11 +5,10 @@ using UnityEngine;
 [System.Serializable]
 public class Game
 {
-    public int idseccion;
+    public int idsesion;
     public string idgame;
     public string namegame;
     public int Totalp;
     public int pcorrectas;
     public int pincorrectas;
-    public List<Level> levels;
 }

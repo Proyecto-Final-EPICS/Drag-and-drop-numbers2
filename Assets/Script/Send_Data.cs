@@ -28,10 +28,11 @@ public class Send_Data : MonoBehaviour
         session.Game.namegame = namegame;
         session.Game.Totalp = totalp;
         session.Game.pcorrectas = pcorrectas;
+        session.Appname = (string)Variables.Application.Get("nombreAPP");
         session.Game.pincorrectas = pincorrectas;
-        session.Game.idseccion = score_lvl;
-        inicioT = (float)Variables.Application.Get("inicioT");
-        finalT = (float)Variables.Application.Get("FinalT");
+        session.Game.idsesion = (int)Variables.Application.Get("Id_sesion");
+        session.Time = (float)Variables.Application.Get("FinalT")-(float)Variables.Application.Get("inicioT");
+
 
         string json = JsonUtility.ToJson(session);
         UnityWebRequest webRequest = new UnityWebRequest("https://vip-epics-api.herokuapp.com/v2.0/game/session", "PUT");

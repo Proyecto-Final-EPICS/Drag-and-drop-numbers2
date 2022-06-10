@@ -6,8 +6,8 @@ using UnityEngine.Networking;
 [System.Serializable]
 public class SessionGame
 {
-    public string startTime;
-    public string finishTime;
+    public float Time;
+    public string Appname;
     public Game Game;
     public Student Student;
 }

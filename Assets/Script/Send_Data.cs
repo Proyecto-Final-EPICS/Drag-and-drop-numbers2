@@ -14,6 +14,8 @@ public class Send_Data : MonoBehaviour
    public string idseccion;
    public string idgame;
    public string namegame;
+   public float inicioT;
+   public float finalT;
    public int totalp;
    public int pcorrectas;
    public int pincorrectas;
@@ -27,9 +29,11 @@ public class Send_Data : MonoBehaviour
         session.Game.Totalp = totalp;
         session.Game.pcorrectas = pcorrectas;
         session.Game.pincorrectas = pincorrectas;
+        session.Game.idseccion = score_lvl;
+        inicioT = (float)Variables.Application.Get("inicioT");
+        finalT = (float)Variables.Application.Get("FinalT");
 
-
-       string json = JsonUtility.ToJson(session);
+        string json = JsonUtility.ToJson(session);
         UnityWebRequest webRequest = new UnityWebRequest("https://vip-epics-api.herokuapp.com/v2.0/game/session", "PUT");
         byte[] encodedPayload = new System.Text.UTF8Encoding().GetBytes(json);
         webRequest.uploadHandler = (UploadHandler) new UploadHandlerRaw(encodedPayload);
@@ -50,7 +54,8 @@ public class Send_Data : MonoBehaviour
    public Parameter parameter(string name,string val){
       return new Parameter(name,val);
   }
-  public void levelScore(int score){
-      score_lvl = score;
-  }
+    public void levelScore(int Id_sesion)
+    {
+        score_lvl = Id_sesion;
+    }
 }

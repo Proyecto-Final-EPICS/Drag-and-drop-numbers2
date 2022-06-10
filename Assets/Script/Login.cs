@@ -90,7 +90,7 @@ public class Login : MonoBehaviour
                     } else{
                             Variables.Application.Set("username",user.username); // Coloca el nombre de usuario loggeado en la variable de aplicación username
                             Variables.Application.Set("colegio",student_school);
-                            Variables.Application.Set("score",user.score);
+                            Variables.Application.Set("Id_sesion", (float.Parse(user.score))+1);
                             Variables.Application.Set("game_name",gameName);
                             Variables.Application.Set("last_lvl",user.lastlevel);
                             Variables.Application.Set("win",user.win);
@@ -101,4 +101,5 @@ public class Login : MonoBehaviour
 		loginBtn.interactable = true;
 	}
 }
+
 

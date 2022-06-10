@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Game
 {
-    public string idseccion;
+    public int idseccion;
     public string idgame;
     public string namegame;
     public int Totalp;

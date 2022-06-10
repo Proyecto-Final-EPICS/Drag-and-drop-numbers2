@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -477,8 +477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":86.0,"y":-155.0},"guid":"dcd44283-f28e-4225-9d1e-37c48e0095cb","$version":"A","$type":"Bolt.Start","$id":"10"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":518.0,"y":-127.0},"guid":"5ff3e472-64a7-4692-958c-efb65b9ba9ca","$version":"A","$type":"Bolt.SetMember","$id":"12"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"correcta","$type":"System.String"}},"position":{"x":80.0,"y":85.0},"guid":"5bba73d3-5013-48dd-b06a-d8a25773d484","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"chainable":false,"member":{"name":"Concat","parameterTypes":["System.Object","System.Object"],"targetType":"System.String","targetTypeName":"System.String","$version":"A"},"defaultValues":{},"position":{"x":309.0,"y":-135.0},"guid":"1dd724a7-3d3a-4723-8a69-1d1f11957ce7","$version":"A","$type":"Bolt.InvokeMember","$id":"17"},{"type":"System.String","value":{"$content":"la
-      respuesta correcta es: ","$type":"System.String"},"defaultValues":{},"position":{"x":18.0,"y":-29.0},"guid":"f7b9cbb1-b5c2-4398-bdb7-10906ab289f2","$version":"A","$type":"Bolt.Literal","$id":"20"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"6b04e68b-052e-4f2b-b9e1-3a6b87ce66c9","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"exit","destinationUnit":{"$ref":"12"},"destinationKey":"assign","guid":"cb8fe1ec-3bce-42ff-91ae-8f2676109d2e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"result","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"54b42879-2b04-4adf-9fe9-fa64ebf5dfa4","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"%arg1","guid":"42970cbf-ab4a-4c97-9abc-64932f14fc95","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"%arg0","guid":"e59f2118-9d05-4002-893f-f4a7d8cfb532","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":202.9516,"y":23.70907},"zoom":0.35,"elements":[],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &217333366
 MonoBehaviour:

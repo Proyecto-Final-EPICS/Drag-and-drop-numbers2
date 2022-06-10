@@ -18,7 +18,7 @@ An unity application available for Android devices focused on the task of teachi
 
 ## Demo
 
-![final_62a2756fe7e4e50066e26908_115526](https://user-images.githubusercontent.com/61607058/172956479-ad35eb19-a8c2-4a8b-8de6-44e063096f89.gif)
+![ezgif-5-989523f1d1](https://user-images.githubusercontent.com/61607058/172985993-bbbaa97c-27fc-4f72-93c8-3b50771a3da9.gif)
 
 ## Documentation
 
@@ -26,7 +26,7 @@ To know more about the project and how it was developed, visit: [Documentation](
 
 ## Try the app 
 
-Click [here]() to download the apk and try the app in android.
+Click [here](https://github.com/Proyecto-Final-EPICS/PlayAndLearn/tree/main/Installer) to see the apk in the repository or click [here](https://drive.google.com/uc?export=download&id=1e_D5_RvaBcdSVfRnXvATlswregOwYSxQ) to download it directly and try the app in your android phone.
 
 ## Installation
 
@@ -39,6 +39,6 @@ To download the application, you must go to the right area of ​​the screen, 
     
 ## Screenshots
 
-![Captura de pantalla (110)](https://user-images.githubusercontent.com/61607058/172956568-7a5ecac0-4884-43f5-baf2-71142d11d5b4.png)
+![image](https://user-images.githubusercontent.com/61607058/172986877-cd8f3b22-49c6-43ed-bcab-c56943bf057a.png)
 
 

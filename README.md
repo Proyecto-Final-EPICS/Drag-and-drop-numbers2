@@ -26,7 +26,7 @@ To know more about the project and how it was developed, visit: [Documentation](
 
 ## Try the app 
 
-Click [here](https://github.com/Proyecto-Final-EPICS/PlayAndLearn/tree/main/Installer) to see the apk in the repository or click [here](https://drive.google.com/uc?export=download&id=1OR-biL1uoq8FMdy0fX_FX8fS6RTBeheO) to download it directly and try the app in your android phone.
+Click [here](https://github.com/Proyecto-Final-EPICS/PlayAndLearn/tree/main/Installer) to see the apk in the repository or click [here](https://drive.google.com/uc?export=download&id=12pLTkvrtRKQXYHPtL6zeP3YZKue3aKBN) to download it directly and try the app in your android phone.
 
 ## Installation
 

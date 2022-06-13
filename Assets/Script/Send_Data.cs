@@ -22,7 +22,7 @@ public class Send_Data : MonoBehaviour
 
     public void send(List<Parameter> prms){
        string username = (string)Variables.Application.Get("username");
-       string school = (string)Variables.Application.Get("colegio");
+       string school = "School_1";
        session.Student = new Student(username,school);
         session.Game.idgame = idgame;
         session.Game.namegame = namegame;

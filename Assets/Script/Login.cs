@@ -63,7 +63,7 @@ public class Login : MonoBehaviour
         int drop_option = school.value;
         string student_school =  school.options[drop_option].text;
         
-        form.AddField("school", student_school);
+        form.AddField("school", "School_1");
         
 		form.AddField ("username", username.text);
     
